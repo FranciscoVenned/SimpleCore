@@ -1,0 +1,23 @@
+name: SimpleCore
+version: ${project.version}
+main: franciscovenned.github.com.simplecore.MainClass
+api-version: 1.16
+authors: [ FranciscoVenned ]
+description: Teleport, Spawn, Broadcaster
+commands:
+  tp:
+    description: Teleport to player
+    usage: Player
+    default: true
+    aliases:
+      - teletransportar
+      - tpa
+      - tpe
+  reboot:
+    description: Reboot Server
+    usage: Reboot to server
+    default: true
+permissions:
+  tp.permissions:
+    description: Teleport Acces
+    default: true
